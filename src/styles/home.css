@@ -1,0 +1,205 @@
+.page-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ceffae;
+}
+
+.side-background {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  align-content: space-around;
+}
+
+.side-background .card {
+  width: 30vw;
+  height: 20vh;
+  background-color: #f6f6f6;
+  padding: 1vh 2vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  border: 2px dashed #ccc;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+.side-background .card:nth-child(2) {
+  margin-left: 7vw;
+}
+
+.side-background .card .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.side-background .card .row .name {
+  font-family: "Avenir";
+  font-weight: 600;
+}
+
+.side-background .card .row .rating .pi {
+  color: rgb(34, 255, 0);
+  padding: 2px;
+}
+
+.side-background .card .content {
+  margin-top: 2vh;
+}
+
+.button {
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #000;
+  transition: all 0.25s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}
+
+.text-wrapper {
+  margin-right: 10%;
+}
+
+.text-wrapper .page-header {
+  font-family: "Avenir";
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header span {
+  position: relative;
+  font-family: "Avenir";
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header span::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  font-family: "Avenir";
+  color: orange;
+  transition: all 1s;
+}
+
+.page-header span:hover::before {
+  height: 0;
+}
+
+.text-wrapper .subheader {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.page-2 {
+  position: relative;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.page-2 .header {
+  font-family: "Avenir";
+  font-size: 2rem;
+  width: 100vw;
+  text-align: center;
+}
+
+.cards {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 200vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 1s;
+}
+
+.page-2 .card .img {
+  height: 20vh;
+  width: calc(20vh * 1.3);
+}
+
+.page-2 .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 25vw;
+  height: 40vh;
+  border-radius: 8px;
+  transform-style: preserve-3d;
+  border: 1px dashed #717171;
+  /* transform: perspective(5000px) rotateY(var(--rotateY)) rotateX(var(--rotateX)); */
+  transition: all 0.5s;
+  box-shadow: 4px 4px #676767;
+}
+
+.page-2 .card:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.page-2 .card .title {
+  position: absolute;
+  top: 0;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Avenir";
+}
+
+.icon-wrapper {
+  margin-top: 5%;
+}
+
+.page-2 .card .icon {
+  color: #717171;
+  font-size: 2.5rem;
+}
+
+.page-2 .card .content {
+  font-family: "Avenir";
+  color: #717171;
+  text-align: left;
+  width: 70%;
+}
+
+.page-3 {
+  background-color: #e6eae6;
+}
+
+.page-3 h1 {
+  font-family: "Avenir";
+  padding-top: 3vh;
+  padding-left: 1vw;
+}
+
+.page-3 .short-answer,
+.long-answer {
+  padding-left: 1vw;
+}
+
+.bold {
+  font-weight: bold;
+}

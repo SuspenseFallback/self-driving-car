@@ -1,0 +1,37 @@
+.footer {
+  background-color: #000000;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .contact p {
+  color: white;
+}
+
+.footer .contact .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .contact .pi {
+  padding-right: 8px;
+}
+
+.footer .list {
+  list-style: none;
+}
+
+.footer .list li {
+  color: white;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.footer .list li:hover {
+  text-decoration: underline;
+  color: dodgerblue;
+}
