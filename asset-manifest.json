@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/self-driving-car/static/css/main.a80d0325.css",
-    "main.js": "/self-driving-car/static/js/main.b806dc2c.js",
+    "main.js": "/self-driving-car/static/js/main.397465ec.js",
     "static/js/787.c75b8bd5.chunk.js": "/self-driving-car/static/js/787.c75b8bd5.chunk.js",
     "static/media/backdrop.png": "/self-driving-car/static/media/backdrop.d5c8624f22d57c39757e.png",
     "static/media/md-backdrop.png": "/self-driving-car/static/media/md-backdrop.b19cf58baf53e31b4560.png",
@@ -15,11 +15,11 @@
     "static/media/primeicons.woff2": "/self-driving-car/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "index.html": "/self-driving-car/index.html",
     "main.a80d0325.css.map": "/self-driving-car/static/css/main.a80d0325.css.map",
-    "main.b806dc2c.js.map": "/self-driving-car/static/js/main.b806dc2c.js.map",
+    "main.397465ec.js.map": "/self-driving-car/static/js/main.397465ec.js.map",
     "787.c75b8bd5.chunk.js.map": "/self-driving-car/static/js/787.c75b8bd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a80d0325.css",
-    "static/js/main.b806dc2c.js"
+    "static/js/main.397465ec.js"
   ]
 }
