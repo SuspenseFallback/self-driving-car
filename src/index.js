@@ -16,33 +16,24 @@ const router = createBrowserRouter(
     {
       path: "/",
       element: <Navbar />,
+      errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
           element: <Home />,
         },
+        {
+          path: "/about",
+          element: <About />,
+        },
+        {
+          path: "/reviews",
+          element: <Reviews />,
+        },
       ],
     },
   ],
-  {
-    path: "/",
-    element: <Navbar />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/reviews",
-        element: <Reviews />,
-      },
-    ],
-  },
+
   {
     basename: "/self-driving-car",
   }
