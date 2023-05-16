@@ -11,7 +11,19 @@ import ErrorPage from "./views/ErrorPage";
 import About from "./views/About";
 import Reviews from "./views/Reviews";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Navbar />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+      ],
+    },
+  ],
   {
     path: "/",
     element: <Navbar />,
@@ -31,7 +43,10 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+  {
+    basename: "/self-driving-car",
+  }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
