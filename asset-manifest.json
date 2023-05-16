@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/self-driving-car/static/css/main.42e03d93.css",
-    "main.js": "/self-driving-car/static/js/main.f4bb8c73.js",
+    "main.css": "/self-driving-car/static/css/main.a80d0325.css",
+    "main.js": "/self-driving-car/static/js/main.b806dc2c.js",
     "static/js/787.c75b8bd5.chunk.js": "/self-driving-car/static/js/787.c75b8bd5.chunk.js",
-    "static/media/original.png": "/self-driving-car/static/media/original.67033e01e91b950c88f3.png",
+    "static/media/backdrop.png": "/self-driving-car/static/media/backdrop.d5c8624f22d57c39757e.png",
+    "static/media/md-backdrop.png": "/self-driving-car/static/media/md-backdrop.b19cf58baf53e31b4560.png",
+    "static/media/sport.png": "/self-driving-car/static/media/sport.cef61b28df9a3521ad88.png",
+    "static/media/master.png": "/self-driving-car/static/media/master.84ab62ba7ed3e516df0b.png",
+    "static/media/skateboard.png": "/self-driving-car/static/media/skateboard.29b17186d034946f70dd.png",
     "static/media/primeicons.svg": "/self-driving-car/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/primeicons.eot": "/self-driving-car/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/self-driving-car/static/media/primeicons.10d3152104f2208ac82a.woff",
     "static/media/primeicons.ttf": "/self-driving-car/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
     "static/media/primeicons.woff2": "/self-driving-car/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "index.html": "/self-driving-car/index.html",
-    "main.42e03d93.css.map": "/self-driving-car/static/css/main.42e03d93.css.map",
-    "main.f4bb8c73.js.map": "/self-driving-car/static/js/main.f4bb8c73.js.map",
+    "main.a80d0325.css.map": "/self-driving-car/static/css/main.a80d0325.css.map",
+    "main.b806dc2c.js.map": "/self-driving-car/static/js/main.b806dc2c.js.map",
     "787.c75b8bd5.chunk.js.map": "/self-driving-car/static/js/787.c75b8bd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e03d93.css",
-    "static/js/main.f4bb8c73.js"
+    "static/css/main.a80d0325.css",
+    "static/js/main.b806dc2c.js"
   ]
 }
