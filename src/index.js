@@ -4,17 +4,30 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "primeicons/primeicons.css";
+import "primeflex/primeflex.css";
 import Home from "./views/Home";
 import Navbar from "./components/Navbar";
+import ErrorPage from "./views/ErrorPage";
+import About from "./views/About";
+import Reviews from "./views/Reviews";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Navbar />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/reviews",
+        element: <Reviews />,
       },
     ],
   },

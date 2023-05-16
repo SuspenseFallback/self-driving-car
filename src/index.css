@@ -4,7 +4,6 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -14,4 +13,23 @@ html {
 
 * {
   font-family: "Quicksand";
+}
+
+kbd {
+  font-family: "Source Code Pro";
+}
+
+.button {
+  border-radius: 24px;
+  background-color: #fff;
+  font-size: 13px;
+  padding: 16px;
+  border: 1px solid #000;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d5d5d5;
 }

@@ -1,0 +1,35 @@
+.about-page-1 {
+  overflow-y: hidden;
+  padding: 1rem;
+  background-color: #c1ffab;
+}
+
+.about-page-1 .page-header {
+  font-family: "Avenir";
+  margin-top: 4vh;
+}
+
+.about-page-1 .note {
+  font-family: "Avenir";
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+}
+
+.about-page-1 .note span {
+  font-weight: bold;
+  font-family: "Avenir";
+}
+
+.about-page-1 .content {
+  width: 90vw;
+}
+
+.about-page-1 .creators {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.for-it {
+  margin-top: 20vh;
+}

@@ -1,17 +1,22 @@
 import React, { useEffect, useState } from "react";
 import "../styles/nav.css";
-import { Outlet } from "react-router";
+import { Outlet, useNavigate } from "react-router";
 import Footer from "./Footer";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [showSidebar, setShowSidebar] = useState(false);
+
+  const goToPage = (url) => {
+    setShowSidebar(false);
+    navigate(url);
+  };
 
   useEffect(() => {
     const wrapper = document.querySelector(".outlet-wrapper");
 
     wrapper.addEventListener("scroll", () => {
-      console.log(wrapper.scrollTop);
-      if (wrapper.scrollTop > 100) {
+      if (wrapper.scrollTop > 20) {
         document.querySelector(".nav").classList.add("opaque");
       } else {
         document.querySelector(".nav").classList.remove("opaque");
@@ -33,10 +38,16 @@ const Navbar = () => {
           &#10005;
         </span>
         <ul className="nav-list">
-          <li className="nav-item">Home</li>
-          <li className="nav-item">About</li>
+          <li className="nav-item" onClick={() => goToPage("")}>
+            Home
+          </li>
+          <li className="nav-item" onClick={() => goToPage("/about")}>
+            About
+          </li>
           <li className="nav-item">FAQ</li>
-          <li className="nav-item">Reviews</li>
+          <li className="nav-item" onClick={() => goToPage("/reviews")}>
+            Reviews
+          </li>
           <li className="nav-item">Our Mission</li>
           <li className="nav-item">Models</li>
           <li className="nav-item">The Skateboard</li>

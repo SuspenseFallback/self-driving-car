@@ -1,0 +1,19 @@
+.error-page-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-page-1 .text-wrapper .header {
+  font-family: "Avenir";
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.error-page-1 .text-wrapper .subheader {
+  font-family: "Avenir";
+  color: #5d5d5d;
+  font-size: 18px;
+}
