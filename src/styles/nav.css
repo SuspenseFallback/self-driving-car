@@ -11,11 +11,14 @@
 }
 
 .nav.opaque {
-  background: #fff;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #4c4c4c;
+  background-color: #000;
 }
 
 .nav .logo {
+  color: #ff8c00;
+  font-weight: bold;
+  font-family: "Avenir";
   margin: 0;
   padding: 16px;
 }
@@ -27,28 +30,29 @@
   border-radius: 50%;
   cursor: pointer;
   transition: 0.25s;
+  color: #ea4949;
 }
 
 .nav .menu-icon:hover {
-  background-color: #d6d6d6;
+  background-color: #803b3b;
 }
 
 .sidebar {
   height: 100vh;
   width: 20vw;
-  background-color: #fff;
+  background-color: #000000;
   position: absolute;
   top: 0;
   transition: 0.75s;
   z-index: 4;
-  border-right: 1px solid #000;
+  border-right: 1px solid #ffffff;
 }
 
 .sidebar .close {
   float: right;
   margin: 12px;
   transition: 0.25s;
-  color: #828282;
+  color: #afafaf;
   cursor: pointer;
 }
 
@@ -71,6 +75,7 @@
 }
 
 .nav-list .nav-item {
+  color: #fff;
   padding: 8px;
   font-size: 14px;
   cursor: pointer;
@@ -80,7 +85,7 @@
 }
 
 .nav-item:hover {
-  background-color: #d6d6d6;
+  background-color: #2a2a2a;
 }
 
 .nav-item.nav-separator {
@@ -91,17 +96,48 @@
   background-color: #a4a4a4;
 }
 
+@media screen and (max-width: 666px) {
+  .sidebar {
+    height: 48vh;
+    width: 100vw;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    transition: 0.75s;
+    z-index: 4;
+    border-right: 1px solid #ffffff;
+  }
+
+  .sidebar .nav-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  .sidebar .close {
+    display: none;
+  }
+
+  .nav-list .nav-item {
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.25s;
+    width: 100vw;
+  }
+}
+
 .outlet-wrapper {
   z-index: 3;
   width: 100vw;
   height: 100vh;
   transition: 0.75s;
-  overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 .outlet-wrapper.overlay {
   opacity: 0.5;
-  background-color: rgb(149, 144, 144);
+  background-color: rgb(98, 98, 98);
 }

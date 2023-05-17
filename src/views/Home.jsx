@@ -63,7 +63,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="page-wrapper page-1">
+      <div className="page-wrapper page-1" id="page-1">
         {/* <div className="side-background">
           <div className="card">
             <div className="row">
@@ -127,7 +127,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="page-wrapper page-2">
+      <div className="page-wrapper page-2" id="page-2">
         <p className="header">Our Models</p>
         <div className="cards">
           <div className="card">
@@ -159,24 +159,49 @@ const Home = () => {
           <i className="pi pi-angle-left"></i>
           <i className="pi pi-angle-right"></i>
         </div>
-        <div className="page-wrapper page-3">
-          <h1 className="header">Why self-driving?</h1>
-          <ul>
-            <li>More Secure</li>
-            <li>Better for the environment</li>
-            <li>Causes less accidents</li>
-          </ul>
-          <div className="content">
-            <p className="secure">
-              <p className="title">More secure</p>
-
-              <p className="description">
-                Our cars have 360 degree vision and sensors to ensure that they
-                have 0 accidental collisions with anything.
-              </p>
-            </p>
-          </div>
-        </div>
+      </div>
+      <div className="page-wrapper page-3" id="page-3">
+        <h1 className="header">Why self-driving?</h1>
+        <table className="data-table">
+          <tr>
+            <th>More secure</th>
+            <th>Better for the environment</th>
+            <th>Ease of use</th>
+          </tr>
+          <tr>
+            <td>
+              <i className="pi pi-lock"></i>
+            </td>
+            <td>
+              <i className="pi pi-map-marker"></i>
+            </td>
+            <td>
+              <i className="pi pi-compass"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Self-driving cars are more secure than normal cars, as they have
+              360 degree vision and sensors which can detect collisions before
+              they happen and can prevent accidents.
+            </td>
+            <td>
+              Self-driving cars are more efficient as they can figure out the
+              best routes to go somewehere to reduce energy consumption. Most of
+              our cars are also electric and do not use petrol, which makes them
+              more sustainable.
+            </td>
+            <td>
+              While normal cars require a driver, self-driving cars (duh) can
+              drive for you. For example, they can drive children to school
+              safely, without having to worry about accidents or security.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div className="page-4 page-wrapper" id="page-4"></div>
+      <div className="page-wrapper page-5" id="page-5">
+        <h1 className="page-header">Contact us</h1>
       </div>
     </>
   );

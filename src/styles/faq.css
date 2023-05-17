@@ -1,0 +1,29 @@
+.faq-page-1 {
+  padding: 1vh 1vw;
+}
+
+.faq-page-1 .page-header {
+  margin-top: 5%;
+  font-family: "Avenir";
+  font-size: 3vw;
+  text-align: center;
+}
+
+.faq-page-1 .link {
+  text-decoration: 1px solid underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.faq-page-1 .link:hover {
+  color: rgb(1, 1, 172);
+}
+
+.faq-page-1 .question {
+  width: 95vw;
+}
+
+.faq-page-1 .question .title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}

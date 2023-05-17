@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import ErrorPage from "./views/ErrorPage";
 import About from "./views/About";
 import Reviews from "./views/Reviews";
+import FAQ from "./views/FAQ";
 
 const router = createBrowserRouter(
   [
@@ -29,6 +30,10 @@ const router = createBrowserRouter(
         {
           path: "/reviews",
           element: <Reviews />,
+        },
+        {
+          path: "/faq",
+          element: <FAQ />,
         },
       ],
     },

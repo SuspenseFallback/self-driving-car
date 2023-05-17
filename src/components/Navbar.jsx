@@ -15,6 +15,10 @@ const Navbar = () => {
   useEffect(() => {
     const wrapper = document.querySelector(".outlet-wrapper");
 
+    wrapper.addEventListener("click", () => {
+      setShowSidebar(false);
+    });
+
     wrapper.addEventListener("scroll", () => {
       if (wrapper.scrollTop > 20) {
         document.querySelector(".nav").classList.add("opaque");
@@ -44,7 +48,9 @@ const Navbar = () => {
           <li className="nav-item" onClick={() => goToPage("/about")}>
             About
           </li>
-          <li className="nav-item">FAQ</li>
+          <li className="nav-item" onClick={() => goToPage("/faq")}>
+            FAQ
+          </li>
           <li className="nav-item" onClick={() => goToPage("/reviews")}>
             Reviews
           </li>
