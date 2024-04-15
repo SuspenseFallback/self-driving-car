@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Self Driving Car demo website
+
+A little website I built for an ICT project in school. **(Incomplete)**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
